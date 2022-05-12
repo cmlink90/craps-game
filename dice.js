@@ -9,6 +9,7 @@ randomNumber2 = Math.floor(randomNumber2) + 1;
 //  var rollTheDice = document.getElementById('roll-button');
 //  rollTheDice.onclick = diceRoll();
 
+ document.getElementById('roll-button').addEventListener("click", diceRoll);
 
 function diceRoll(){
  
