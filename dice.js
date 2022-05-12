@@ -9,11 +9,22 @@ randomNumber2 = Math.floor(randomNumber2) + 1;
 //  var rollTheDice = document.getElementById('roll-button');
 //  rollTheDice.onclick = diceRoll();
 
+
+
  document.getElementById('roll-button').addEventListener("click", diceRoll);
+
+
+
+
+   
+
+    
 
 function diceRoll(){
  
-    console.log(randomNumber1, randomNumber2);
+    // console.log(randomNumber1, randomNumber2);
+ console.log(randomNumber1, randomNumber2);
+
 
  if (randomNumber1 == 1){
      document.querySelector("img.img1").setAttribute("src", "dice1.png");
@@ -47,8 +58,9 @@ else if (randomNumber2 == 4){
 else if (randomNumber2 == 5){
    document.querySelector("img.img2").setAttribute("src", "dice5.png");
 }
-
+  
 }
+ 
 
 // }
 // diceRoll(randomNumber1, randomNumber2);
