@@ -1,28 +1,15 @@
-
-
-
-
-
-//  var rollTheDice = document.getElementById('roll-button');
-//  rollTheDice.onclick = diceRoll();
-
-
-
+// The below code attaches the function to the button with the class roll-button to run the function whenever
+// the button is pressed
  document.getElementById('roll-button').addEventListener("click", diceRoll);
 
-
-
-
-   
-
-    
+//  The function below generates random numbers between 1-6 resulting in different dice for each random number, which are then populated in place of the img
 
 function diceRoll(){
     var randomNumber1 = Math.random() * 6;
     randomNumber1 = Math.floor(randomNumber1) + 1;
     var randomNumber2 = Math.random() * 6;
     randomNumber2 = Math.floor(randomNumber2) + 1;
-    // console.log(randomNumber1, randomNumber2);
+   
  console.log(randomNumber1, randomNumber2);
 
 
@@ -61,9 +48,6 @@ else if (randomNumber2 == 5){
   
 }
  
-
-// }
-// diceRoll(randomNumber1, randomNumber2);
         
 
 
