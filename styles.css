@@ -39,3 +39,15 @@ footer {
   font-family: 'Indie Flower', cursive;
 
 }
+
+h2 {
+  text-align: center;
+  color: #EEEEEE;
+
+}
+
+li {
+  color: #EEEEEE;
+  margin-left: 25%;
+
+}
