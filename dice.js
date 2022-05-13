@@ -15,37 +15,43 @@ function diceRoll(){
  console.log(randomNumber1, randomNumber2);
 
 
- if (randomNumber1 == 1){
+ if (randomNumber1 === 1){
      document.querySelector("img.img1").setAttribute("src", "dice1.png");
  }
-else if (randomNumber1 == 2){
+else if (randomNumber1 === 2){
     document.querySelector("img.img1").setAttribute("src", "dice2.png");
 }
-else if (randomNumber1 == 3){
+else if (randomNumber1 === 3){
     document.querySelector("img.img1").setAttribute("src", "dice3.png");
 }
-else if (randomNumber1 == 4){
+else if (randomNumber1 === 4){
     document.querySelector("img.img1").setAttribute("src", "dice4.png");
 }
-else if (randomNumber1 == 5){
+else if (randomNumber1 === 5){
     document.querySelector("img.img1").setAttribute("src", "dice5.png");
+}
+else if (randomNumber1 === 6){
+    document.querySelector("img.img1").setAttribute("src", "dice6.png");
 }
  
 
-if (randomNumber2 == 1){
+if (randomNumber2 === 1){
     document.querySelector("img.img2").setAttribute("src", "dice1.png");
 }
-else if (randomNumber2 == 2){
+else if (randomNumber2 === 2){
    document.querySelector("img.img2").setAttribute("src", "dice2.png");
 }
-else if (randomNumber2 == 3){
+else if (randomNumber2 === 3){
    document.querySelector("img.img2").setAttribute("src", "dice3.png");
 }
-else if (randomNumber2 == 4){
+else if (randomNumber2 === 4){
    document.querySelector("img.img2").setAttribute("src", "dice4.png");
 }
-else if (randomNumber2 == 5){
+else if (randomNumber2 === 5){
    document.querySelector("img.img2").setAttribute("src", "dice5.png");
+}
+else if (randomNumber2 === 6){
+    document.querySelector("img.img2").setAttribute("src", "dice6.png");
 }
   
 if (randomNumber1 + randomNumber2 == 2){
